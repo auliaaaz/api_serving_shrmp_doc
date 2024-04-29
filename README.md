@@ -6,6 +6,7 @@ Three pre-trained models are used to generate predictions:
 1. sr_waterbased_model: Predicts water-based survival rate.
 2. sr_feedbased_model: Predicts feed-based survival rate.
 3. abw_model: Predicts average body weight (ABW).
+The models can be accessed through [this drive link](https://drive.google.com/file/d/1Kf4Kkp7SL9NrF2-L6gpc2FUosmAj9_Lv/view?usp=sharing)
 
 ## Endpoints
 The API exposes the following endpoint:
@@ -119,12 +120,12 @@ Before running the service, ensure that Python and SQLite3 are installed on your
 
 3. Install the Required Packages
    
-With the virtual environment activated, install the packages listed in `requirements.txt`:
-```
-pip install -r requirements.txt
-```
+    With the virtual environment activated, install the packages listed in `requirements.txt`:
+    ```
+    pip install -r requirements.txt
+    ```
 
 4. Run the Application with
-```
-python app.py
-```
+    ```
+    python app.py
+    ```
